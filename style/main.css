@@ -259,7 +259,7 @@ main .tab_btn_wrap button {
     border-radius: 4px;
 }
 
-.tab_btn_wrap button:hover{
+main .tab_btn_wrap button:hover{
     background: #EC7979;
 }
 
