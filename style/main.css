@@ -66,7 +66,7 @@ li:last-child {
 =================================================*/
 header {
     padding: 109px 111px 101px 110px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../img/background_1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../img/header_background.jpg);
 }
 
 .header_description {
@@ -603,7 +603,7 @@ main .tab_btn_wrap button {
 .section_stylish {
     padding-bottom: 38px;
     text-align: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(../img/background_2.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(../img/stylish_background.jpg);
     background-size: cover;
     color: #fff;
 }
