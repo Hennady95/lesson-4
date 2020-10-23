@@ -10,31 +10,32 @@
 }
 
 nav {
-    position: relative;/**/
-    background-color: black;
     padding-left: 110px;
+    background-color: black;
 }
 
 .navigation {
     display: inline-block;
+    width: 49%;
 }
 
-.navigation_logo{
-    padding-top: 20px;
-    padding-bottom: 19px;
-    text-align: left;
+.navigation_logo {
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
 }
 
-nav img{
-    height: 30px;
+.navigation_logo span {
+    color: #EC7979;
+}
+
+.navigation_title {
+    padding: 20px 0px 19px 0px;
 }
 
 .navigation_menu {
-    position: absolute;
-    /*padding-left: 625px;/**/
-    top: 25px;
-    right: 108px;
-    height: 30px;
+    padding: 25px 108px 25px 0px;
+    text-align: right;
 }
 
 li {
@@ -63,23 +64,31 @@ li:last-child {
 
 /*Header
 =================================================*/
-
 header {
-    position: relative;
+    padding: 109px 111px 101px 110px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../img/background_1.jpg);
 }
 
+.header_description {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
 .header_logo {
-    height: 70px;
     width: 129px;
-    margin-top: 109px;
-    margin-left: 110px;
+    font-size: 60px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+
+.header_logo span { 
+    color: #EC7979;
 }
 
 .header_title {
-    width: 540px;
-    margin-top: 32px;
-    margin-left: 110px;
+    padding: 32px 0px 0px 0px;
     text-transform: uppercase;
     text-align: left;
     color: #FFFFFF;
@@ -87,28 +96,24 @@ header {
 
 .header_line {
     width: 64px;
-    margin-top: 32px;
-    margin-left: 110px;
+    margin: 32px 0px 39px 0px;
     border: 1px solid #FFFFFF;;
 }
 
 .header_text {
     width: 282px;
-    margin-top: 39px;
-    margin-left: 110px;
     font-family: Raleway;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
 .download_btn {
     height: 42px;
     width: 135px;
-    margin-top: 39px;
-    margin-left: 110px;
-    margin-bottom: 101px;
+    margin: 32px 0px 0px 0px;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 15px;
@@ -122,26 +127,31 @@ header {
 }
 
 .form {
-    position: absolute;
-    overflow: hidden;
     height: 370px;
     width: 370px;
-    right: 111px;
-    top: 111px;
+    margin-left: 230px;
     border-radius: 8px;
-    background-color: white;
+    background-color: #FFFFFF;
+    overflow: hidden;
 }
 
 .header_form {
-    height: 56px;
-    margin-bottom: 44px;
-    /*background: url(../img/Try\ Your\ FREE\ Trial\ Today.svg), no-repeat, center;*/
-    background-image: url(../img/Try\ Your\ FREE\ Trial\ Today.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 18px 0 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+}
+
+.header_form span {
+    color: #EC7979;
 }
 
 .form_text {
+    padding: 2px 0px 0px 0px;
     margin-left: 59px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -154,11 +164,11 @@ header {
 
 .form_name_field {
     height: 16px;
-    margin-bottom: 19px;
+    margin-bottom: 21px;
 }
 .form_email_field {
     height: 19px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .form_password_field {
@@ -225,24 +235,28 @@ header {
     margin-left: 45px;
 }
 
-.social_btn {
-    position: absolute;
-    right: 111px;
-    top: 34px;
+.text_container {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.text_container:last-child {
+    padding: 16px 0px;
 }
 
 /*main
 ==================================*/
 
 main {
-    position: relative;
-    padding-left: 111px;
+    background: no-repeat url(../img/city.jpg);
+    background-position: 963px;
 }
 
 .tab_btn_wrap {
-    padding-top: 125px;
-    padding-right: 118px;
     display: inline-block;
+    padding: 125px 118px 0px 111px;
+    vertical-align: top;
 }
 
 main .tab_btn_wrap button {
@@ -259,7 +273,7 @@ main .tab_btn_wrap button {
     border-radius: 4px;
 }
 
-main .tab_btn_wrap button:hover{
+.tab_btn_wrap button:hover{
     background: #EC7979;
 }
 
@@ -268,9 +282,8 @@ main .tab_btn_wrap button:hover{
 }
 
 .main_information {
-    padding-top: 126px;
     display: inline-block;
-    position: absolute;
+    padding-top: 126px;
 }
 
 .main_title {
@@ -284,8 +297,7 @@ main .tab_btn_wrap button:hover{
 }
 
 .main_text {
-    width: 572px;
-    margin-top: 1px;
+    width: 572px; 
     font-family: 'Open Sans';
     font-size: 14px;
     line-height: 19px;
@@ -307,21 +319,10 @@ main .tab_btn_wrap button:hover{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     outline: none;
-}
-
-.main_img_city {
-    position: absolute;
-    display: inline-block;
-    left: 963px;
-    top: 100px;
-}
+}   
 
 /*section_card*
 ===========================================*/
-
-.section_card {
-    /*padding-left: 110px;*/
-}
 
 .section_card_header {
     padding-top: 80px;
@@ -337,11 +338,11 @@ main .tab_btn_wrap button:hover{
     color: #212121;
 }
 
-.section_card_header hr {    
+.section_card_header hr {   
+    width: 64px;
+    height: 2px; 
     margin: 34px auto;
     border: none;
-    width: 64px;
-    height: 2px;
     background-color: #E72424;
 }
 
@@ -354,11 +355,11 @@ main .tab_btn_wrap button:hover{
 }   
 
 .circle {
-    border: 2px solid #E72424;
-    border-radius: 50%;
     height: 70px;
     width: 70px;
     margin: 0 auto;
+    border: 2px solid #E72424;
+    border-radius: 50%;
     box-sizing: border-box;  
 }
 
@@ -385,16 +386,14 @@ main .tab_btn_wrap button:hover{
     display: inline-block;
     width: 350px;
     height: 225px;
-    margin-top: 34px;
-    padding-right: 16px;
-    padding-left: 16px;
+    margin-top: 68px;
+    padding: 0px 16px;
     text-align: center;
 }  
 
 .title_box {
     height: 29px;
-    margin-top: 30px;
-    margin-bottom: 16px;
+    margin: 30px 0px 16px 0px;
     font-family: 'Open Sans', sans-serif;;
     font-weight: bold;
     font-size: 20px;
@@ -402,34 +401,30 @@ main .tab_btn_wrap button:hover{
 }
 
 .text {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;;
     font-size: 14px;
     line-height: 19px;
-    margin-bottom: 20px;
     color: #000000;
-    width: 350px;
-    height: 60px;
 }
 
 /*Pricing options
 =================================================*/
 .option_section {
     text-align: center;
-   /* padding-left: 110px;*/
     background: #F5F5F5;
 }
 
 .option_container {
-    padding-top: 15px;
-    padding-bottom: 60px;
+    padding: 30px 0px 60px 0px;
 }
 
 .option_card {
-    position: relative;
     display: inline-block;
     width: 340px;
-    margin-left: 39px;
-    margin-right: 39px;
+    margin: 0px 39px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -437,26 +432,23 @@ main .tab_btn_wrap button:hover{
     line-height: 19px;
 }
 
-.option_card:nth-child(odd) {
-    vertical-align: bottom;
-}
-
 .option_card:nth-child(2) {
-    height: 485px;
+    position: relative;
+    bottom: 15px;
 }
 
 .block_header_card {
     height: 50px;
     width: 340px;
-    background: #333333;
     margin-bottom: 2px;
+    background: #333333;
 }
 
 .block_price {
     height: 100px;
     width: 340px;
-    background: #333333;
     margin-bottom: 4px;
+    background: #333333;
 }
 
 .block_elements {
@@ -505,15 +497,16 @@ main .tab_btn_wrap button:hover{
     color: #86878B;
 }
 
+.option_card li {
+    display: block;
+}
+
 /*Our customers
 =================================================*/
 
 .customer {
-    /*padding-left: 110px;*/
     padding-bottom: 119px;
 }
-
-.customer_header {}
 
 .customer_title {
     padding-top: 80px;
@@ -549,8 +542,7 @@ main .tab_btn_wrap button:hover{
 .manager_card {
     display: inline-block;
     width: 298px;
-    margin-left: 56px;
-    margin-right: 56px;
+    margin: 0px 56px;
 }
 
 .manager_comments {
@@ -573,19 +565,19 @@ main .tab_btn_wrap button:hover{
 }
 
 .photo_manager {
+    display: inline-block;
     width: 70px;
     height: 70px;
     padding-left: 45px;
-    display: inline-block;
 }
 
 .about_manager {
+    display: inline-block;
     width: 174px;
     height: 27px;
     padding-left: 45px;
     text-align: center;
     vertical-align: top;
-    display: inline-block;
 }
 
 .manager_name {
@@ -609,12 +601,11 @@ main .tab_btn_wrap button:hover{
 =================================================*/
 
 .section_stylish {
+    padding-bottom: 38px;
     text-align: center;
-   /* padding-left: 110px;*/
-    background:linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(../img/background_2.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(../img/background_2.jpg);
     background-size: cover;
     color: #fff;
-    padding-bottom: 38px;
 }
 
 .title_stylish {
@@ -622,6 +613,7 @@ main .tab_btn_wrap button:hover{
     font-family: 'Raleway';
     font-weight: normal;
     font-style: normal;
+    text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     color: #FFFFFF;
@@ -636,16 +628,18 @@ main .tab_btn_wrap button:hover{
 }
 
 .mask {
+    margin-top: 34px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.8);
-    margin-top: 34px;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
 .download_button {
     width: 135px;
     height: 42px;
+    margin-top: 30px;
     font-family: 'Open Sans', sans-serif;;
     font-weight: 600;
     font-size: 15px;
@@ -654,7 +648,6 @@ main .tab_btn_wrap button:hover{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     background-image: none;
-    margin-top: 30px;
     background: transparent;
     outline: none;
 }
@@ -696,10 +689,10 @@ textarea {
 
 .contact_line {
     width: 64px;
+    margin: 34px auto;
     border: none;
     height: 2px;
     background: #E72424;
-    margin: 34px auto;
 }
 
 .contact_description {
@@ -712,8 +705,8 @@ textarea {
 }
 
 .contact_form {
-    text-align: center;
     padding-top: 91px;
+    text-align: center;
 }
 
 .contact_data {
@@ -723,8 +716,8 @@ textarea {
 
 .contact_data_comment {
     display: inline-block;
-    vertical-align: top;
     margin-left: 111px;
+    vertical-align: top;
 }
 
 .field_contact {
@@ -786,30 +779,26 @@ textarea {
 footer {
     text-align: center;
     background-color: #000000;    
-    /*padding-left: 110px;*/
 }
 
 .footer_text {
-    padding-top: 18px;
+    padding: 18px 0px 15px 0px;
     font-family: 'Open Sans', sans-serif;;
     font-size: 12px;
     line-height: 16px;
-    color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
 }
 
 .footer_icon {
    width: 23px;
    height: 23px;
+   padding: 30px 5px 0px 5px;
    box-sizing: content-box;
-   padding-top: 30px;
-   padding-right: 5px;
-   padding-left: 5px;
 }
 
 footer a{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0px 5px;
 }
 
 .footer_icon:hover {
