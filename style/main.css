@@ -19,21 +19,21 @@ nav {
     width: 49%;
 }
 
-.navigation_logo {
+.navigation-logo {
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
 }
 
-.navigation_logo span {
+.navigation-logo span {
     color: #EC7979;
 }
 
-.navigation_title {
+.navigation-title {
     padding: 20px 0px 19px 0px;
 }
 
-.navigation_menu {
+.navigation-menu {
     padding: 25px 108px 25px 0px;
     text-align: right;
 }
@@ -47,18 +47,19 @@ li {
 li a{
     height: 60px;
     padding-bottom: 25px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     align-items: center;
     text-align: right;
     text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.7);
+    color: #FFFFFF;
+    opacity: 0.7;
     text-decoration: none;
 }
 
-li:last-child {
+.navigation-menu li:last-child {
     padding-right: 0;
 }
 
@@ -69,13 +70,13 @@ header {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../img/header_background.jpg);
 }
 
-.header_description {
+.header-description {
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-.header_logo {
+.header-logo {
     width: 129px;
     font-size: 60px;
     line-height: 35px;
@@ -83,26 +84,26 @@ header {
 
 }
 
-.header_logo span { 
+.header-logo span { 
     color: #EC7979;
 }
 
-.header_title {
+.header-title {
     padding: 32px 0px 0px 0px;
     text-transform: uppercase;
     text-align: left;
     color: #FFFFFF;
 }
 
-.header_line {
+.header-line {
     width: 64px;
     margin: 32px 0px 39px 0px;
     border: 1px solid #FFFFFF;;
 }
 
-.header_text {
+.header-text {
     width: 282px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -110,11 +111,11 @@ header {
     opacity: 0.8;
 }
 
-.download_btn {
+.download-btn {
     height: 42px;
     width: 135px;
     margin: 32px 0px 0px 0px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -135,9 +136,9 @@ header {
     overflow: hidden;
 }
 
-.header_form {
+.header-form {
     padding: 18px 0 44px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -146,14 +147,14 @@ header {
     color: #333333;
 }
 
-.header_form span {
+.header-form span {
     color: #EC7979;
 }
 
-.form_text {
+.form-text {
     padding: 2px 0px 0px 0px;
     margin-left: 59px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -162,16 +163,16 @@ header {
     color: #BDBDBD;
 }
 
-.form_name_field {
+.form-name-field {
     height: 16px;
     margin-bottom: 21px;
 }
-.form_email_field {
+.form-email-field {
     height: 19px;
     margin-bottom: 18px;
 }
 
-.form_password_field {
+.form-password-field {
     height: 19px;
     margin-bottom: 70px;
 }
@@ -191,7 +192,7 @@ header {
     width: 370px;
     background: #EC7979;
     color: #FFFFFF;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -202,15 +203,15 @@ header {
 
 /*Social media
 =============================================*/
-.social_media {
+.social-media {
     position: relative;
     background:  #F8EFEF;
     padding-top: 15px;
 }
 
-.social_title {
+.social-title {
     margin-left: 111px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -218,30 +219,30 @@ header {
     color: #333333;
 }
 
-.social_text {
+.social-text {
     width: 365px;
     padding-top: 14px;
     margin-left: 111px;
     padding-bottom: 17px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     align-items: center;
     color: #86878B;
 }
 
-.social_media img{
+.social-media img{
     height: 42px;
     margin-left: 45px;
 }
 
-.text_container {
+.text-container {
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-.text_container:last-child {
+.text-container:last-child {
     padding: 16px 0px;
 }
 
@@ -253,17 +254,17 @@ main {
     background-position: 963px;
 }
 
-.tab_btn_wrap {
+.tab-btn-wrap {
     display: inline-block;
     padding: 125px 118px 0px 111px;
     vertical-align: top;
 }
 
-main .tab_btn_wrap button {
+main .tab-btn-wrap button {
     height: 110px;
     width: 112px;
     margin-bottom: 10px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
@@ -273,22 +274,22 @@ main .tab_btn_wrap button {
     border-radius: 4px;
 }
 
-.tab_btn_wrap button:hover{
+.tab-btn-wrap button:hover{
     background: #EC7979;
 }
 
-.dark_btn {
+.dark-btn {
     background: #333333;
 }
 
-.main_information {
+.main-information {
     display: inline-block;
     padding-top: 126px;
 }
 
-.main_title {
+.main-title {
     padding-bottom: 58px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -296,20 +297,20 @@ main .tab_btn_wrap button {
     color: #000000;
 }
 
-.main_text {
+.main-text {
     width: 572px; 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
     color: #86878B;
 }
 
-.main_download_btn {
+.main-download-btn {
     height: 42px;
     width: 135px;
     margin-top: 89px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -324,21 +325,21 @@ main .tab_btn_wrap button {
 /*section_card*
 ===========================================*/
 
-.section_card_header {
+.section-card-header {
     padding-top: 80px;
     text-align: center;
 }
 
-.section_card_title {
+.section-card-title {
     height: 38px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     color: #212121;
 }
 
-.section_card_header hr {   
+.section-card-header hr {   
     width: 64px;
     height: 2px; 
     margin: 34px auto;
@@ -346,7 +347,7 @@ main .tab_btn_wrap button {
     background-color: #E72424;
 }
 
-.section_card_description {
+.section-card-description {
     height: 19px;
     font-family: 'Open Sans', sans-serif;;
     font-size: 14px;
@@ -363,22 +364,22 @@ main .tab_btn_wrap button {
     box-sizing: border-box;  
 }
 
-.circle_lamp {
+.circle-lamp {
     background: url(../img/lamp.jpg) no-repeat center;
     background-size: 23px 30px;
 }
 
-.circle_keyboard {
+.circle-keyboard {
     background: url(../img/keyboard.jpg) no-repeat center;
     background-size: 37px 26px;
 }
 
-.circle_lightning {
+.circle-lightning {
     background: url(../img/lightning.jpg) no-repeat center;
     background-size: 21px 33px;
 }
 
-.section_card_main {
+.section-card-main {
     text-align: center;
 }
 
@@ -391,10 +392,10 @@ main .tab_btn_wrap button {
     text-align: center;
 }  
 
-.title_box {
+.title-box {
     height: 29px;
     margin: 30px 0px 16px 0px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #333333;
@@ -404,7 +405,7 @@ main .tab_btn_wrap button {
     width: 350px;
     height: 60px;
     margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
@@ -412,65 +413,64 @@ main .tab_btn_wrap button {
 
 /*Pricing options
 =================================================*/
-.option_section {
+.option-section {
     text-align: center;
     background: #F5F5F5;
 }
 
-.option_container {
+.option-container {
     padding: 30px 0px 60px 0px;
 }
 
-.option_card {
+.option-card {
     display: inline-block;
     width: 340px;
     margin: 0px 39px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
 }
 
-.option_card:nth-child(2) {
+.option-card:nth-child(2) {
     position: relative;
     bottom: 15px;
 }
 
-.block_header_card {
+.block-header-card {
     height: 50px;
     width: 340px;
     margin-bottom: 2px;
     background: #333333;
 }
 
-.block_price {
+.block-price {
     height: 100px;
     width: 340px;
     margin-bottom: 4px;
     background: #333333;
 }
 
-.block_elements {
+.block-elements {
     height: 40px;
     width: 340px;
     background: #FFFFFF;
     margin-bottom: 4px;
 }
 
-.title_option {
+.title-option {
     padding-top: 15px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    color: #FFFFFF;
 }
 
-.option_price {
+.option-price {
     padding-top: 26px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;
@@ -478,9 +478,9 @@ main .tab_btn_wrap button {
     color: #FFFFFF;
 }
 
-.second_option_title {
+.second-option-title {
     padding-top: 17px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -488,16 +488,16 @@ main .tab_btn_wrap button {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.option_text {
+.option-text {
     padding-top: 10px;  
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
     color: #86878B;
 }
 
-.option_card li {
+.option-card li {
     display: block;
 }
 
@@ -508,9 +508,9 @@ main .tab_btn_wrap button {
     padding-bottom: 119px;
 }
 
-.customer_title {
+.customer-title {
     padding-top: 80px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -518,7 +518,7 @@ main .tab_btn_wrap button {
     color: #212121;
 }
 
-.customer_line {
+.customer-line {
     width: 64px;
     height: 2px;
     margin: 34px auto;
@@ -526,52 +526,52 @@ main .tab_btn_wrap button {
     background-color: #E72424;
 }
 
-.customer_description {
+.customer-description {
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
 }
 
-.customers_container {
+.customers-container {
     padding-top: 67px;
     text-align: center;
 }
 
-.manager_card {
+.manager-card {
     display: inline-block;
     width: 298px;
     margin: 0px 56px;
 }
 
-.manager_comments {
+.manager-comments {
     height: 100px;
     background: #E2E2E2;
     border-radius: 7px;
 }
 
-.manager_words {
+.manager-words {
     padding-top: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
     color: #86878B;
 }
 
-.about_section {
+.about-section {
     padding-top: 22px;
 }
 
-.photo_manager {
+.photo-manager {
     display: inline-block;
     width: 70px;
     height: 70px;
     padding-left: 45px;
 }
 
-.about_manager {
+.about-manager {
     display: inline-block;
     width: 174px;
     height: 27px;
@@ -580,8 +580,8 @@ main .tab_btn_wrap button {
     vertical-align: top;
 }
 
-.manager_name {
-    font-family: 'Open Sans';
+.manager-name {
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -589,8 +589,8 @@ main .tab_btn_wrap button {
     color: #333333;
 }
 
-.manager_position {
-    font-family: 'Open Sans';
+.manager-position {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     text-align: right; 
@@ -600,7 +600,7 @@ main .tab_btn_wrap button {
 /*stylish
 =================================================*/
 
-.section_stylish {
+.section-stylish {
     padding-bottom: 38px;
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(../img/stylish_background.jpg);
@@ -608,9 +608,9 @@ main .tab_btn_wrap button {
     color: #fff;
 }
 
-.title_stylish {
+.title-stylish {
     padding-top: 57px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-transform: uppercase;
@@ -619,7 +619,7 @@ main .tab_btn_wrap button {
     color: #FFFFFF;
 }
 
-.line_stylish {
+.line-stylish {
     width: 64px;
     height: 2px;
     margin: 34px auto;
@@ -636,11 +636,11 @@ main .tab_btn_wrap button {
     opacity: 0.8;
 }
 
-.download_button {
+.download-button {
     width: 135px;
     height: 42px;
     margin-top: 30px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color:#FFFFFF    ;
@@ -652,7 +652,7 @@ main .tab_btn_wrap button {
     outline: none;
 }
 
-.download_button:hover {
+.download-button:hover {
     color: greenyellow;
     border-color:greenyellow;
     transition: 2s;
@@ -675,11 +675,9 @@ textarea {
     outline: none;
 }
 
-.contact_header {
+.contact-header {
     padding-top: 80px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -687,7 +685,7 @@ textarea {
     color: #212121;
 }
 
-.contact_line {
+.contact-line {
     width: 64px;
     margin: 34px auto;
     border: none;
@@ -695,36 +693,34 @@ textarea {
     background: #E72424;
 }
 
-.contact_description {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
+.contact-description {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
 }
 
-.contact_form {
+.contact-form {
     padding-top: 91px;
     text-align: center;
 }
 
-.contact_data {
+.contact-data {
     display: inline-block;
     margin-right: 111px;
 }
 
-.contact_data_comment {
+.contact-data-comment {
     display: inline-block;
     margin-left: 111px;
     vertical-align: top;
 }
 
-.field_contact {
+.field-contact {
     margin-left: 0;
 }
 
-.contact_name {
+.contact-name {
     width: 478px;
     height: 32px;
     margin-bottom: 31.8px;
@@ -733,7 +729,7 @@ textarea {
     color: #BDBDBD;
 }
 
-.contact_email {
+.contact-email {
     width: 478px;
     height: 32px;
     margin-bottom: 31.8px;
@@ -742,7 +738,7 @@ textarea {
     color: #BDBDBD;
 }
 
-.contact_password {
+.contact-password {
     width: 478px;
     height: 32px;
     margin-bottom: 31.8px;
@@ -751,19 +747,18 @@ textarea {
     color: #BDBDBD;
 }
 
-.contact_comment {
+.contact-comment {
     width: 478px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     color: #BDBDBD;
 }
 
-.send_btn {
+.send-btn {
     width: 166px;
     height: 42px;
     margin-top: 80px;
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -781,7 +776,7 @@ footer {
     background-color: #000000;    
 }
 
-.footer_text {
+.footer-text {
     padding: 18px 0px 15px 0px;
     font-family: 'Open Sans', sans-serif;;
     font-size: 12px;
@@ -790,7 +785,7 @@ footer {
     opacity: 0.5;
 }
 
-.footer_icon {
+.footer-icon {
    width: 23px;
    height: 23px;
    padding: 30px 5px 0px 5px;
@@ -801,7 +796,7 @@ footer a{
     padding: 0px 5px;
 }
 
-.footer_icon:hover {
+.footer-icon:hover {
     transition: 0.25s;
     padding: 5px;
 }
